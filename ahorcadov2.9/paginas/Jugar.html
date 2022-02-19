@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <link rel="stylesheet" href="../archivos/style.css">
+        <script src="../archivos/validarLetras.js " type="text/javascript"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <div style="text-align:center; margin: 50px 0px;">
+            <h1 class="titulo">Juego Ahorcado</h1>
+
+
+            <ul>
+
+                <a class="clase1" href="../index.html">Inicio</a>
+                <br>
+                <a  class ="clase1"href="agregarPalabras.html">Agregar palabras</a>
+                <br>
+            </ul>
+
+
+            <h1 class="hasPerdido" id="hasPerdido"></h1><h1 class="hasGanado" id="hasGanado"></h2>
+
+            
+            <input class="palabras2" onkeyup="mayus(this);" onkeypress="validarLetras() " type="text"  maxlength ="1"  id ="letra" placeholder="Ingrese una letra "  >
+            <br>
+            <button class= "btn"id="evaluarLetra">Revisar letra</button>
+            <button class= "btn"id="reiciar" onclick="location.href= location.href">Reiniciar juego</button>
+            <p  class="clase1" id ="salida"></p>
+            <p  class="clase1" id ="salida2"></p>
+            <canvas class="canvas" width="400" height="250"> </canvas>
+
+            <p  class="salida" id ="salida"></p>
+
+            <script src= " ../archivos/ahorcadoJuego.js " ></script>
+
+    </body>
+    <footer>
+    <h3 style="text-align: left;" class ="cintillo"> Copyright © 2022 creado por Adonis Alvarado Avila</h3>
+</footer>
+</html>

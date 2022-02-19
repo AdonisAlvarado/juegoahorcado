@@ -1,0 +1,80 @@
+
+
+
+body{
+  background: url(pizarra2.jpg);
+
+}
+.canvas{
+ background-color: transparent ;
+    
+}
+.titulo {
+
+ font-family: 'Gochi Hand', cursive;
+  color: white;
+
+}
+.clase1{
+  font-family: 'Gochi Hand', cursive;
+ color: white;
+
+ font-size: larger ;
+}
+
+
+.btn {
+  font-family: 'Gochi Hand', cursive;
+  color: white;
+  font-size: larger;
+  background-color: transparent;
+ border-radius: 20px;
+ 
+ padding: 20px;
+  margin-top: 5px;
+  
+ 
+}
+.salida{
+  font-family: 'Gochi Hand', cursive;
+  color: white;} 
+
+
+.palabras {
+  font-family: 'Gochi Hand', cursive;
+  font-size: larger;
+  border-radius: 1em;
+  border: 5px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 30%;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.palabras2 {
+  font-family: 'Gochi Hand', cursive;
+  font-size: larger;
+  border-radius: 1em;
+  border: 5px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 10%;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hasPerdido{ padding: 15px;
+  font-family: 'Gochi Hand', cursive;
+  color: white;}
+
+
+.hasGanado{ padding: 15px;
+ font-family: 'Gochi Hand', cursive;
+  color: white;} 
+
+.cintillo{
+   font-family: 'Quicksand', sans-serif;
+   color: white;
+   font-size: small;
+}
